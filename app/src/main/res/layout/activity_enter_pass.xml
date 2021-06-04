@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_enterpass"
+    android:gravity="center"
+    tools:context=".EnterPassActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhập mật khẩu ứng dụng"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:layout_marginTop="-100dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:hint="Nhập mật khẩu"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPass"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:textSize="18sp"
+        android:textColorHint="@color/white"
+        android:drawableLeft="@drawable/iconpass"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xác nhận"
+        android:id="@+id/btnEt"
+        />
+
+</LinearLayout>

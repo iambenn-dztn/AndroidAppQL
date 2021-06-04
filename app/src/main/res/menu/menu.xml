@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Mai"
+    >
+    <item
+        android:icon="@drawable/imgmenu"
+        android:title="hihi"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:icon="@drawable/iconnsx"
+                android:title="Nợ nhà sản xuất"
+                android:id="@+id/itemNoNSX"
+                app:showAsAction="ifRoom"
+                />
+            <item
+                android:title="Nợ của đại lý"
+                android:id="@+id/itemNoDaiLy"
+                android:icon="@drawable/icondaily"
+                app:showAsAction="ifRoom"
+                />
+            <item
+                android:icon="@drawable/iconban"
+                android:title="Thống kế xuất"
+                android:id="@+id/itemXuat"
+                app:showAsAction="ifRoom"
+                />
+            <item
+                android:title="Thống kế nhập"
+                android:icon="@drawable/iconmua"
+                android:id="@+id/itemNhap"
+                app:showAsAction="ifRoom"
+                />
+            <item
+                android:title="Thống kế hàng"
+                android:id="@+id/itemHang"
+                android:icon="@drawable/iconhang"
+                app:showAsAction="ifRoom"
+                />
+            <item
+                android:title="Đổi mật khẩu"
+                android:id="@+id/itemDoiMK"
+                android:icon="@drawable/iconchange"
+                app:showAsAction="ifRoom"
+                />
+            <item
+                android:title="Thoát"
+                android:icon="@drawable/iconthoat"
+                android:id="@+id/itemThoat"
+                app:showAsAction="ifRoom"
+                />
+        </menu>
+    </item>
+</menu>

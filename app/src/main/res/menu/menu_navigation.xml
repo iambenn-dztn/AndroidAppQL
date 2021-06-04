@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_tab1" android:title="Sản phẩm" android:icon="@drawable/imgsanpham"/>
+    <item android:id="@+id/menu_tab2" android:title="Nhập hàng" android:icon="@drawable/imgnhap"/>
+    <item android:id="@+id/menu_tab3" android:title="Xuất hàng" android:icon="@drawable/imgxuat"/>
+    <item android:id="@+id/menu_tab4" android:title="Trả hàng" android:icon="@drawable/imgtra"/>
+
+</menu>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.project_ql">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ironapp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project_QL">
+        <activity android:name=".ThongKeHangActivity"></activity>
+        <activity android:name=".DoiMatKhauActivity" />
+        <activity android:name=".EnterPassActivity" />
+        <activity android:name=".CreatPassActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SanPham.SuaSanPhamActivity" />
+        <activity android:name=".TraHang.DonTraActivity" />
+        <activity android:name=".NoDaiLy.NoDaiLyActivity" />
+        <activity android:name=".ThongKeXuat.ThongKeXuatActivity" />
+        <activity android:name=".DonXuat.DonXuatActivity" />
+        <activity android:name=".NoNhaSanXuat.NoNSXActivity" />
+        <activity android:name=".ThongKeNhap.ThongKeNhapActivity" />
+        <activity android:name=".DonNhap.DonNhapActivity" />
+        <activity android:name=".SanPham.ThemSanPhamActivity" />
+        <activity android:name=".SanPham.ChiTietSanPhamActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SanPham.sanpham_frag" />
+    </application>
+
+</manifest>
